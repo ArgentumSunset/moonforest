@@ -1,0 +1,57 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 1.6;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+::selection {
+    color: #ecf0f1;
+    background-color: #3498db;
+}
+
+p {
+    font-family: Avenir;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    transition: color .3s ease-in-out;
+    color: #fff;
+}
+
+p > a {
+    color: #26c281;
+}
+
+p > a:hover {
+    color: #049372;
+}
+
+a:active {
+    color: #049372;
+}
+
+button:focus,
+input:focus {
+    outline: none;
+}
+
+#outer {
+    height: 100%;
+    position: relative;
+}
+
+#moon {
+  background-color: #fcfbbc;
+  height: 100px;
+  width: 200px;
+  border-radius: 50px;
+}
